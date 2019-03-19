@@ -69,7 +69,6 @@ int main(){
 	get_walltime(&te);
 
 	for(i=0; i<N*N; i++){
-		printf("%f\n", c[i]);
 		if(c[i]!=(2.0*3.0*N)){
 			printf("ERROR\n");
 			exit(1);
